@@ -1,0 +1,16 @@
+# Ignore build output directory
+build/
+
+# Ignore IDE files
+.idea/
+
+# Settings with Sensitive Data (private)
+src/test/resources/config/test2.properties
+
+# Log files
+logs/
+debug.log
+
+# Target
+.target/
+/target/
