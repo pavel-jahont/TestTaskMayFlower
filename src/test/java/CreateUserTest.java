@@ -44,7 +44,7 @@ public class CreateUserTest {
         );
     }
 
-    @Test(description = "Create user with empty password", priority = 1)
+    @Test(description = "Create user with empty password", priority = 0)
     public void createUserWithEmptyPassword() {
         userSteps.createUserWithEmptyPassword(400);
         assertAll(
@@ -53,7 +53,7 @@ public class CreateUserTest {
         );
     }
 
-    @Test(description = "Create user with empty email", priority = 1)
+    @Test(description = "Create user with empty email", priority = 0)
     public void createUserWithEmptyEmail() {
         userSteps.createUserWithEmptyEmail(400);
         assertAll(
@@ -62,7 +62,7 @@ public class CreateUserTest {
         );
     }
 
-    @Test(description = "Create user with empty username", priority = 1)
+    @Test(description = "Create user with empty username", priority = 0)
     public void createUserWithEmptyUsername() {
         userSteps.createUserWithEmptyUsername(400);
         assertAll(
